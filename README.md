@@ -1,1 +1,3 @@
 # AtC
+
+Design masih acak acakan, edit sesuai pilihan masing masing, nanti kirim ke group...
