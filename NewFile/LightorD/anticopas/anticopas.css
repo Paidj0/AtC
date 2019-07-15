@@ -1,0 +1,129 @@
+ /*BUAT INDEX*/
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	margin: 0;
+}
+body{
+	background-color: #f0f0f0;
+	font-family: arial;
+}
+
+
+.header{
+	height: 100px;
+}
+.brand{
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	background-color: #000b1c;
+}
+.brand h1{
+	font-family: arial;
+	color: #fff;
+}
+.menu{
+	height: 40px;
+	background-color: lavender;
+	box-shadow: 0 2px 5px grey;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu li{
+	float: left;
+	width: 14%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.menu li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.menu li a:hover{
+	background-color: lightblue;
+}
+
+.main{
+	position: relative;
+	height: 100%;
+}
+.ads{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 14%;
+	height: 90%;
+	padding: 10px;
+	border: 2px solid black;
+}
+.footer{
+	background-color: grey;
+	padding: 20px;
+	width: 100%;
+}
+
+
+
+/*SIDE BAR*/
+.sideBar{
+	width: 14%;
+	height: 100%;
+	background-color: silver;
+	border-right: 1px solid grey;
+	float: left;
+}
+.sideBar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.sideBar li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: black;
+}
+.sideBar li a:hover{
+	background-color: lightblue;
+}
+
+/*CONTENT*/
+.content{
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 30px;
+	float: left;
+}
+
+
+
+.clear{
+	clear: both;
+}
+
+/*HOME*/
+.beranda{
+	width: 80%;
+	padding: 20px;
+}
+.kotakBahasa{
+	width: 300px;
+	height: 300px;
+	float: left;
+	line-height: 300px;
+	text-align: center;
+	background-color: grey;
+	margin: 5px;
+}
